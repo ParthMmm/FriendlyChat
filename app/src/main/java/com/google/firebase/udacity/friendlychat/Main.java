@@ -71,7 +71,7 @@ public class Main extends AppCompatActivity {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 if (user != null) {
                     onSignedInInitialize(user.getDisplayName());
-                    Toast.makeText(Main.this, "Logged in", Toast.LENGTH_LONG).show();
+                    Toast.makeText(Main.this, "Logged in", Toast.LENGTH_SHORT).show();
 
 
                 } else {
